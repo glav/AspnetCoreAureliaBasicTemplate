@@ -5,6 +5,9 @@
 
 *   Sample pages using ASP.NET Core MVC
 *   Build setup and basic Aurelia implementation
+*   Mostly stuff that doesn't work yet as it is a work in progress.
+
+
 *   [Gulp](https://go.microsoft.com/fwlink/?LinkId=518007) and [Bower](https://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side libraries
 *   Theming using [Bootstrap](https://go.microsoft.com/fwlink/?LinkID=398939)
 
