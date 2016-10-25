@@ -56,7 +56,7 @@
       {
         "id": "web",
         "displayName": "Web",
-        "output": "wwwroot\\src",
+        "output": "wwwroot\\js",
         "index": "index.html"
       }
     ],
