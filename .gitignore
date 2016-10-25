@@ -7,6 +7,12 @@
 *.userosscache
 *.sln.docstates
 
+#Build/minified artifacts
+*.min.css
+*.min.js
+*-bundle.js
+*-bundle.js.map
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -232,3 +238,4 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+/src
