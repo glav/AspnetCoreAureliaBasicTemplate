@@ -4,7 +4,7 @@
   "platform": {
     "id": "web",
     "displayName": "Web",
-    "output": "wwwroot\\src",
+    "output": "wwwroot\\js",
     "index": "index.html"
   },
   "transpiler": {
@@ -16,19 +16,19 @@
         "transform-es2015-modules-amd"
       ]
     },
-    "source": "wwwroot\\src\\**\\*.js"
+    "source": "src\\**\\*.js"
   },
   "markupProcessor": {
     "id": "none",
     "displayName": "None",
     "fileExtension": ".html",
-    "source": "wwwroot\\src\\**\\*.html"
+    "source": "src\\**\\*.html"
   },
   "cssProcessor": {
     "id": "none",
     "displayName": "None",
     "fileExtension": ".css",
-    "source": "wwwroot\\src\\**\\*.css"
+    "source": "src\\**\\*.css"
   },
   "editor": {
     "id": "vscode",
@@ -85,6 +85,23 @@
         "source": [
           "[**/*.js]",
           "**/*.{css,html}"
+        ],
+        "dependencies": [
+          {
+            "name": "bootstrap",
+            "path": "../wwwroot/lib/bootstrap/dist",
+            "main": "js/bootstrap.js",
+            "deps": [ "jquery" ],
+            "exports": "$",
+            "resources": [
+              "css/bootstrap.css"
+            ]
+          },
+          {
+            "name": "jquery",
+            "path": "../wwwroot/lib/jquery/dist",
+            "main": "jquery.js"
+          }
         ]
       },
       {
