@@ -56,8 +56,8 @@
       {
         "id": "web",
         "displayName": "Web",
-        "output": "wwwroot\\js",
-        "index": "index.html"
+        "output": "wwwroot\\js"
+        
       }
     ],
     "loader": {
