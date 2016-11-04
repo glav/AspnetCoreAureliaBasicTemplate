@@ -88,6 +88,11 @@
         ],
         "dependencies": [
           {
+            "name": "jquery",
+            "path": "../wwwroot/lib/jquery/dist",
+            "main": "jquery.js"
+          },
+          {
             "name": "bootstrap",
             "path": "../wwwroot/lib/bootstrap/dist",
             "main": "js/bootstrap.js",
@@ -96,11 +101,6 @@
             "resources": [
               "css/bootstrap.css"
             ]
-          },
-          {
-            "name": "jquery",
-            "path": "../wwwroot/lib/jquery/dist",
-            "main": "jquery.js"
           }
         ]
       },
