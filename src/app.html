@@ -1,6 +1,11 @@
 <template>
     <require from="resources/elements/header"></require>
-    <header></header>
-  <h1>${message}</h1>
+    <require from="./app.css"></require>
 
+    
+  <div class="aurelia-display-container col-lg-10">
+    <header></header>
+
+    <router-view></router-view>
+  </div>
 </template>
