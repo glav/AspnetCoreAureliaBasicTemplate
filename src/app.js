@@ -8,7 +8,8 @@ export class App {
       console.log('in router');
       config.map([
           { route: '', moduleId: 'resources/elements/index', title: 'Home' },
-          { route: '/about', moduleId: 'resources/elements/about', name: 'About' }
+          { route: '/about', moduleId: 'resources/elements/about', name: 'About' },
+          { route: '/cometome', moduleId: 'resources/elements/cometome', name: 'Come to me'}
       ]);
 
       this.router = router;
