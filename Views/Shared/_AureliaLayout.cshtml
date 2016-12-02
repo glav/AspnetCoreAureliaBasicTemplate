@@ -20,10 +20,14 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-      <div aurelia-app="main"></div>
-        <footer>
-            <p>&copy; 2016 - WebApplication</p>
-        </footer>
+      <div aurelia-app="main">
+        
+        @*Progress section that gets removed and replaced when Aurelia does its thing*@ 
+        <div class="text-info text-center">
+          <img src="~/images/spinner-small.gif" />
+          <p>Loading....</p>
+        </div>
+      </div>
     </div>
 
     <environment names="Development">

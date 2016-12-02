@@ -1,6 +1,6 @@
 export class App {
   constructor() {
-    this.message = 'Basic Aurelia template';
+    //this.message = 'Basic Aurelia template';  // Note: This will override any 'this.message' in other elements.
   }
 
   configureRouter(config, router) {
@@ -8,8 +8,7 @@ export class App {
       console.log('in router');
       config.map([
           { route: '', moduleId: 'resources/elements/index', title: 'Home' },
-          { route: 'aureliaspa', moduleId: '???', title: 'Home' },
-          { route: '/about', moduleId: 'contact-detail', name: 'contacts' }
+          { route: '/about', moduleId: 'resources/elements/about', name: 'About' }
       ]);
 
       this.router = router;

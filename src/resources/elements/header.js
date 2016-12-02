@@ -4,7 +4,7 @@ export class Header {
 
     constructor() {
         this.appTitle = "Aurelia WebApp";
-        this.headerText = "Welcome to the Aurelia framework integrated into an ASP.Net Core template.";
+        this.headerText = "Click the links above to view more content.";
     }
 
   @bindable value;
