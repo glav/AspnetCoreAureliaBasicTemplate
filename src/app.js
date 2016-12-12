@@ -9,7 +9,8 @@ export class App {
       config.map([
           { route: '', moduleId: 'resources/elements/index', title: 'Home' },
           { route: '/about', moduleId: 'resources/elements/about', name: 'About' },
-          { route: '/cometome', moduleId: 'resources/elements/cometome', name: 'Come to me'}
+          { route: '/cometome', moduleId: 'resources/elements/cometome', name: 'Come to me' },
+          { route: '/binding', moduleId: 'resources/elements/bindings', name: 'Bindings' }
       ]);
 
       this.router = router;

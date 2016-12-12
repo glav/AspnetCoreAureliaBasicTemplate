@@ -1,0 +1,14 @@
+<template>
+  <p>A very basic example of bindings in Aurelia.</p>
+  <div class="col-md-3">
+    <p>Two way binding</p>
+    <input value.bind="textValue" />
+  </div>
+  <div class="col-md-3">
+    <p>One way binding</p>
+    <input value.one-way="textValue" id="one-way-1" />
+  </div>
+  <div>
+    <label>The value of the model is: ${textValue}</label>
+  </div>
+</template>
