@@ -5,7 +5,6 @@ export class App {
 
   configureRouter(config, router) {
       config.title = 'AspNetCoreAureliaApp';
-      console.log('in router');
       config.map([
           { route: '', moduleId: 'resources/elements/index', title: 'Home' },
           { route: '/about', moduleId: 'resources/elements/about', name: 'About' },
