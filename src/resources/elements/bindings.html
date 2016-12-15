@@ -2,10 +2,12 @@
   <p>A very basic example of bindings in Aurelia.</p>
   <div class="col-md-3">
     <p>Two way binding</p>
+    <pre>&lt;input value.bind="someValue" /&gt;</pre>
     <input value.bind="textValue" />
   </div>
   <div class="col-md-3">
     <p>One way binding</p>
+    <pre>&lt;input value.one-way="someValue" /&gt;</pre>
     <input value.one-way="textValue" id="one-way-1" />
   </div>
   <div>
